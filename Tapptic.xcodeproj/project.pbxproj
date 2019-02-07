@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3829E46721FA0F4000EB9221 /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3829E46621FA0F4000EB9221 /* DetailedViewController.swift */; };
 		389DC86221F8BC620016F401 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389DC86121F8BC620016F401 /* AppDelegate.swift */; };
-		389DC86421F8BC620016F401 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389DC86321F8BC620016F401 /* ViewController.swift */; };
+		389DC86421F8BC620016F401 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389DC86321F8BC620016F401 /* MasterViewController.swift */; };
 		389DC86721F8BC620016F401 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389DC86521F8BC620016F401 /* Main.storyboard */; };
 		389DC86921F8BC650016F401 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 389DC86821F8BC650016F401 /* Assets.xcassets */; };
 		389DC86C21F8BC650016F401 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389DC86A21F8BC650016F401 /* LaunchScreen.storyboard */; };
 		389DC87721F8BC650016F401 /* TappticTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389DC87621F8BC650016F401 /* TappticTests.swift */; };
 		389DC88221F8BC650016F401 /* TappticUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389DC88121F8BC650016F401 /* TappticUITests.swift */; };
+		389DC89121F8C3E60016F401 /* ObjectClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389DC89021F8C3E60016F401 /* ObjectClient.swift */; };
+		389DC89321F8CE7E0016F401 /* NetworkConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389DC89221F8CE7E0016F401 /* NetworkConfiguration.swift */; };
+		389DC89621F8D5420016F401 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389DC89521F8D5420016F401 /* TableViewCell.swift */; };
+		389DC89921F8D74F0016F401 /* ObjectListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389DC89821F8D74F0016F401 /* ObjectListModel.swift */; };
+		6212FC79AF6524BDEA703B8A /* Pods_TappticTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E564B0306DC0A2D2903BFAA1 /* Pods_TappticTests.framework */; };
+		A552E72C46FBBC19525E8FC1 /* Pods_Tapptic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B6B0316427C82A247F6882 /* Pods_Tapptic.framework */; };
+		C3B29B70D51B2D83C222307B /* Pods_TappticUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FAE0B547E85732BD4993131 /* Pods_TappticUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2743D367128F72E828FEBD02 /* Pods-Tapptic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tapptic.release.xcconfig"; path = "Target Support Files/Pods-Tapptic/Pods-Tapptic.release.xcconfig"; sourceTree = "<group>"; };
+		3829E46621FA0F4000EB9221 /* DetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedViewController.swift; sourceTree = "<group>"; };
+		3829E46821FB222B00EB9221 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		389DC85E21F8BC620016F401 /* Tapptic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tapptic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		389DC86121F8BC620016F401 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		389DC86321F8BC620016F401 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		389DC86321F8BC620016F401 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		389DC86621F8BC620016F401 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		389DC86821F8BC650016F401 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		389DC86B21F8BC650016F401 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +58,18 @@
 		389DC87D21F8BC650016F401 /* TappticUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TappticUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		389DC88121F8BC650016F401 /* TappticUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TappticUITests.swift; sourceTree = "<group>"; };
 		389DC88321F8BC650016F401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		389DC89021F8C3E60016F401 /* ObjectClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectClient.swift; sourceTree = "<group>"; };
+		389DC89221F8CE7E0016F401 /* NetworkConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConfiguration.swift; sourceTree = "<group>"; };
+		389DC89521F8D5420016F401 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		389DC89821F8D74F0016F401 /* ObjectListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectListModel.swift; sourceTree = "<group>"; };
+		5FAE0B547E85732BD4993131 /* Pods_TappticUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TappticUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BF4F83E752AB3DE8A6BCF1F /* Pods-TappticTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TappticTests.release.xcconfig"; path = "Target Support Files/Pods-TappticTests/Pods-TappticTests.release.xcconfig"; sourceTree = "<group>"; };
+		8535AFFA32302E5F8AB15B7E /* Pods-Tapptic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tapptic.debug.xcconfig"; path = "Target Support Files/Pods-Tapptic/Pods-Tapptic.debug.xcconfig"; sourceTree = "<group>"; };
+		B3ECD01BF7C911D871E6530C /* Pods-TappticTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TappticTests.debug.xcconfig"; path = "Target Support Files/Pods-TappticTests/Pods-TappticTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D6E00E684145592E20B1E314 /* Pods-TappticUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TappticUITests.release.xcconfig"; path = "Target Support Files/Pods-TappticUITests/Pods-TappticUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E564B0306DC0A2D2903BFAA1 /* Pods_TappticTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TappticTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5772F8472A40F33CC76EF2C /* Pods-TappticUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TappticUITests.debug.xcconfig"; path = "Target Support Files/Pods-TappticUITests/Pods-TappticUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E9B6B0316427C82A247F6882 /* Pods_Tapptic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tapptic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A552E72C46FBBC19525E8FC1 /* Pods_Tapptic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6212FC79AF6524BDEA703B8A /* Pods_TappticTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3B29B70D51B2D83C222307B /* Pods_TappticUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +103,14 @@
 		389DC85521F8BC620016F401 = {
 			isa = PBXGroup;
 			children = (
+				3829E46821FB222B00EB9221 /* README.md */,
+				389DC88F21F8C04C0016F401 /* Service */,
 				389DC86021F8BC620016F401 /* Tapptic */,
 				389DC87521F8BC650016F401 /* TappticTests */,
 				389DC88021F8BC650016F401 /* TappticUITests */,
 				389DC85F21F8BC620016F401 /* Products */,
+				5680AA8974123176FC8A9F0D /* Pods */,
+				8A85099E3A8E1276AD327C54 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +128,13 @@
 			isa = PBXGroup;
 			children = (
 				389DC86121F8BC620016F401 /* AppDelegate.swift */,
-				389DC86321F8BC620016F401 /* ViewController.swift */,
 				389DC86521F8BC620016F401 /* Main.storyboard */,
+				389DC86321F8BC620016F401 /* MasterViewController.swift */,
 				389DC86821F8BC650016F401 /* Assets.xcassets */,
 				389DC86A21F8BC650016F401 /* LaunchScreen.storyboard */,
 				389DC86D21F8BC650016F401 /* Info.plist */,
+				389DC89521F8D5420016F401 /* TableViewCell.swift */,
+				3829E46621FA0F4000EB9221 /* DetailedViewController.swift */,
 			);
 			path = Tapptic;
 			sourceTree = "<group>";
@@ -125,6 +157,47 @@
 			path = TappticUITests;
 			sourceTree = "<group>";
 		};
+		389DC88F21F8C04C0016F401 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				389DC89721F8D6A30016F401 /* Model */,
+				389DC89021F8C3E60016F401 /* ObjectClient.swift */,
+				389DC89221F8CE7E0016F401 /* NetworkConfiguration.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		389DC89721F8D6A30016F401 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				389DC89821F8D74F0016F401 /* ObjectListModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5680AA8974123176FC8A9F0D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8535AFFA32302E5F8AB15B7E /* Pods-Tapptic.debug.xcconfig */,
+				2743D367128F72E828FEBD02 /* Pods-Tapptic.release.xcconfig */,
+				B3ECD01BF7C911D871E6530C /* Pods-TappticTests.debug.xcconfig */,
+				6BF4F83E752AB3DE8A6BCF1F /* Pods-TappticTests.release.xcconfig */,
+				E5772F8472A40F33CC76EF2C /* Pods-TappticUITests.debug.xcconfig */,
+				D6E00E684145592E20B1E314 /* Pods-TappticUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8A85099E3A8E1276AD327C54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9B6B0316427C82A247F6882 /* Pods_Tapptic.framework */,
+				E564B0306DC0A2D2903BFAA1 /* Pods_TappticTests.framework */,
+				5FAE0B547E85732BD4993131 /* Pods_TappticUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 389DC88621F8BC650016F401 /* Build configuration list for PBXNativeTarget "Tapptic" */;
 			buildPhases = (
+				BE1AE78224C47095F92D8E22 /* [CP] Check Pods Manifest.lock */,
 				389DC85A21F8BC620016F401 /* Sources */,
 				389DC85B21F8BC620016F401 /* Frameworks */,
 				389DC85C21F8BC620016F401 /* Resources */,
+				E5C098B7C2F6A88202B52E57 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +224,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 389DC88921F8BC650016F401 /* Build configuration list for PBXNativeTarget "TappticTests" */;
 			buildPhases = (
+				D086B827C8D6408FD77AF794 /* [CP] Check Pods Manifest.lock */,
 				389DC86E21F8BC650016F401 /* Sources */,
 				389DC86F21F8BC650016F401 /* Frameworks */,
 				389DC87021F8BC650016F401 /* Resources */,
@@ -167,6 +243,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 389DC88C21F8BC650016F401 /* Build configuration list for PBXNativeTarget "TappticUITests" */;
 			buildPhases = (
+				9238280F64B216D47D1A0185 /* [CP] Check Pods Manifest.lock */,
 				389DC87921F8BC650016F401 /* Sources */,
 				389DC87A21F8BC650016F401 /* Frameworks */,
 				389DC87B21F8BC650016F401 /* Resources */,
@@ -251,13 +328,93 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9238280F64B216D47D1A0185 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TappticUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE1AE78224C47095F92D8E22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tapptic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D086B827C8D6408FD77AF794 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TappticTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5C098B7C2F6A88202B52E57 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tapptic/Pods-Tapptic-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tapptic/Pods-Tapptic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		389DC85A21F8BC620016F401 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				389DC86421F8BC620016F401 /* ViewController.swift in Sources */,
+				3829E46721FA0F4000EB9221 /* DetailedViewController.swift in Sources */,
+				389DC89621F8D5420016F401 /* TableViewCell.swift in Sources */,
+				389DC86421F8BC620016F401 /* MasterViewController.swift in Sources */,
 				389DC86221F8BC620016F401 /* AppDelegate.swift in Sources */,
+				389DC89121F8C3E60016F401 /* ObjectClient.swift in Sources */,
+				389DC89921F8D74F0016F401 /* ObjectListModel.swift in Sources */,
+				389DC89321F8CE7E0016F401 /* NetworkConfiguration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,13 +520,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -418,18 +576,20 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		389DC88721F8BC650016F401 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8535AFFA32302E5F8AB15B7E /* Pods-Tapptic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +608,7 @@
 		};
 		389DC88821F8BC650016F401 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2743D367128F72E828FEBD02 /* Pods-Tapptic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +627,7 @@
 		};
 		389DC88A21F8BC650016F401 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3ECD01BF7C911D871E6530C /* Pods-TappticTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +649,7 @@
 		};
 		389DC88B21F8BC650016F401 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BF4F83E752AB3DE8A6BCF1F /* Pods-TappticTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +671,7 @@
 		};
 		389DC88D21F8BC650016F401 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5772F8472A40F33CC76EF2C /* Pods-TappticUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +692,7 @@
 		};
 		389DC88E21F8BC650016F401 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6E00E684145592E20B1E314 /* Pods-TappticUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
